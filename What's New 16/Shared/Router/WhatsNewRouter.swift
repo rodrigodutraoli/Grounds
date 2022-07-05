@@ -9,8 +9,32 @@ import Foundation
 import SwiftUI
 
 class WhatsNewRouter: ObservableObject {
+    @ViewBuilder func whatsNewListScreen() -> some View {
+        WhatsNewListScreen(router: self)
+    }
+    
     @ViewBuilder func detentsScreen(description: String, detents: Set<PresentationDetent>) -> some View {
-        DisplayBottomSheetDetentsScreen(description: description, detents: detents, router: self, viewModel: DisplayBottomSheetDetentsViewModel(services: self.services))
+        DisplayBottomSheetDetentsScreen(description: description, detents: detents, router: self)
+    }
+    
+    @ViewBuilder func fixedGridBasicScreen() -> some View {
+        FixedGridBasicScreen(router: self)
+    }
+    
+    @ViewBuilder func fixedGridDifferentNumberCellsScreen() -> some View {
+        FixedGridDifferentNumberCellsScreen(router: self)
+    }
+    
+    @ViewBuilder func fixedGridWithouRowScreen() -> some View {
+        FixedGridWithouRowScreen(router: self)
+    }
+    
+    @ViewBuilder func fixedGridTicTacToeScreen() -> some View {
+        FixedGridTicTacToeScreen(router: self)
+    }
+    
+    @ViewBuilder func fixedGridChessboardScreen() -> some View {
+        FixedGridChessboardScreen(router: self)
     }
     
     private var services: Services
@@ -30,24 +54,6 @@ struct WhatsNewView: View {
     @StateObject var router: WhatsNewRouter
     
     var body: some View {
-        NavigationView {
-            List {
-                Section(header: Text("Display Bottom Sheet - Detents")) {
-                    NavigationLink(destination: router.detentsScreen(description: "[.medium, .large]", detents: [.medium, .large])) {
-                        Text("[.medium, .large]")
-                    }
-                    
-                    NavigationLink(destination: router.detentsScreen(description: "[.fraction(0.15)]", detents: [.fraction(0.15)])) {
-                        Text("[.fraction(0.15)]")
-                    }
-                    
-                    let heights = stride(from: 0.1, through: 1.0, by: 0.1).map { PresentationDetent.fraction($0) }
-                    NavigationLink(destination: router.detentsScreen(description: "Fraction 0.1 <= n <= 1, step 0.1", detents: Set(heights))) {
-                        Text("Fraction 0.1 <= n <= 1, step 0.1")
-                    }
-                }
-            }
-            .navigationTitle("What's new in iOS 16")
-        }.navigationViewStyle(.stack)
+        router.whatsNewListScreen()
     }
 }

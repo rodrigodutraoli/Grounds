@@ -13,8 +13,6 @@
 		7128308528749D1E002A8AFB /* WhatsNewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7128308328749D1E002A8AFB /* WhatsNewRouter.swift */; };
 		7128308928749F82002A8AFB /* DisplayBottomSheetDetentsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7128308828749F82002A8AFB /* DisplayBottomSheetDetentsScreen.swift */; };
 		7128308A28749F82002A8AFB /* DisplayBottomSheetDetentsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7128308828749F82002A8AFB /* DisplayBottomSheetDetentsScreen.swift */; };
-		7128308C2874A08B002A8AFB /* DisplayBottomSheetDetentsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7128308B2874A08B002A8AFB /* DisplayBottomSheetDetentsViewModel.swift */; };
-		7128308D2874A08B002A8AFB /* DisplayBottomSheetDetentsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7128308B2874A08B002A8AFB /* DisplayBottomSheetDetentsViewModel.swift */; };
 		712830902874AD8E002A8AFB /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7128308F2874AD8E002A8AFB /* Services.swift */; };
 		712830912874AD8E002A8AFB /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7128308F2874AD8E002A8AFB /* Services.swift */; };
 		712830932874ADAA002A8AFB /* DefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712830922874ADAA002A8AFB /* DefaultsManager.swift */; };
@@ -33,6 +31,22 @@
 		71C815252874872200C473BE /* What_s_New_16App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C814FC2874871D00C473BE /* What_s_New_16App.swift */; };
 		71C815282874872200C473BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71C814FE2874872200C473BE /* Assets.xcassets */; };
 		71C815292874872200C473BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71C814FE2874872200C473BE /* Assets.xcassets */; };
+		71D70C1D2874CBCB0008C0F5 /* FixedGridBasicScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D70C1C2874CBCB0008C0F5 /* FixedGridBasicScreen.swift */; };
+		71D70C1E2874CBCB0008C0F5 /* FixedGridBasicScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D70C1C2874CBCB0008C0F5 /* FixedGridBasicScreen.swift */; };
+		71D70C212874CCFB0008C0F5 /* WhatsNewListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D70C202874CCFB0008C0F5 /* WhatsNewListScreen.swift */; };
+		71D70C222874CCFB0008C0F5 /* WhatsNewListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D70C202874CCFB0008C0F5 /* WhatsNewListScreen.swift */; };
+		71D70C242874CDCF0008C0F5 /* DisplayBottomSheetScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D70C232874CDCF0008C0F5 /* DisplayBottomSheetScreen.swift */; };
+		71D70C252874CDCF0008C0F5 /* DisplayBottomSheetScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D70C232874CDCF0008C0F5 /* DisplayBottomSheetScreen.swift */; };
+		71D70C272874CE900008C0F5 /* FixedGridScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D70C262874CE900008C0F5 /* FixedGridScreen.swift */; };
+		71D70C282874CE900008C0F5 /* FixedGridScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D70C262874CE900008C0F5 /* FixedGridScreen.swift */; };
+		71D70C2A2874D0170008C0F5 /* FixedGridDifferentNumberCellsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D70C292874D0170008C0F5 /* FixedGridDifferentNumberCellsScreen.swift */; };
+		71D70C2B2874D0170008C0F5 /* FixedGridDifferentNumberCellsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D70C292874D0170008C0F5 /* FixedGridDifferentNumberCellsScreen.swift */; };
+		71D70C2D2874D10C0008C0F5 /* FixedGridWithouRowScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D70C2C2874D10C0008C0F5 /* FixedGridWithouRowScreen.swift */; };
+		71D70C2E2874D10C0008C0F5 /* FixedGridWithouRowScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D70C2C2874D10C0008C0F5 /* FixedGridWithouRowScreen.swift */; };
+		71D70C302874D18D0008C0F5 /* FixedGridTicTacToeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D70C2F2874D18D0008C0F5 /* FixedGridTicTacToeScreen.swift */; };
+		71D70C312874D18D0008C0F5 /* FixedGridTicTacToeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D70C2F2874D18D0008C0F5 /* FixedGridTicTacToeScreen.swift */; };
+		71D70C332874D1E20008C0F5 /* FixedGridChessboardScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D70C322874D1E20008C0F5 /* FixedGridChessboardScreen.swift */; };
+		71D70C342874D1E20008C0F5 /* FixedGridChessboardScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D70C322874D1E20008C0F5 /* FixedGridChessboardScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,7 +70,6 @@
 		7128307828749976002A8AFB /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
 		7128308328749D1E002A8AFB /* WhatsNewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsNewRouter.swift; sourceTree = "<group>"; };
 		7128308828749F82002A8AFB /* DisplayBottomSheetDetentsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayBottomSheetDetentsScreen.swift; sourceTree = "<group>"; };
-		7128308B2874A08B002A8AFB /* DisplayBottomSheetDetentsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayBottomSheetDetentsViewModel.swift; sourceTree = "<group>"; };
 		7128308F2874AD8E002A8AFB /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
 		712830922874ADAA002A8AFB /* DefaultsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultsManager.swift; sourceTree = "<group>"; };
 		712830962874ADF0002A8AFB /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
@@ -73,6 +86,14 @@
 		71C8151C2874872200C473BE /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		71C815202874872200C473BE /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		71C815222874872200C473BE /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		71D70C1C2874CBCB0008C0F5 /* FixedGridBasicScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixedGridBasicScreen.swift; sourceTree = "<group>"; };
+		71D70C202874CCFB0008C0F5 /* WhatsNewListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsNewListScreen.swift; sourceTree = "<group>"; };
+		71D70C232874CDCF0008C0F5 /* DisplayBottomSheetScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayBottomSheetScreen.swift; sourceTree = "<group>"; };
+		71D70C262874CE900008C0F5 /* FixedGridScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixedGridScreen.swift; sourceTree = "<group>"; };
+		71D70C292874D0170008C0F5 /* FixedGridDifferentNumberCellsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixedGridDifferentNumberCellsScreen.swift; sourceTree = "<group>"; };
+		71D70C2C2874D10C0008C0F5 /* FixedGridWithouRowScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixedGridWithouRowScreen.swift; sourceTree = "<group>"; };
+		71D70C2F2874D18D0008C0F5 /* FixedGridTicTacToeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixedGridTicTacToeScreen.swift; sourceTree = "<group>"; };
+		71D70C322874D1E20008C0F5 /* FixedGridChessboardScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixedGridChessboardScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,7 +131,7 @@
 		7128307B28749A8C002A8AFB /* Screens */ = {
 			isa = PBXGroup;
 			children = (
-				7128308728749F36002A8AFB /* DisplayBottomSheet */,
+				71D70C1F2874CCE00008C0F5 /* WhatsNewList */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -127,8 +148,8 @@
 		7128308728749F36002A8AFB /* DisplayBottomSheet */ = {
 			isa = PBXGroup;
 			children = (
+				71D70C232874CDCF0008C0F5 /* DisplayBottomSheetScreen.swift */,
 				7128308828749F82002A8AFB /* DisplayBottomSheetDetentsScreen.swift */,
-				7128308B2874A08B002A8AFB /* DisplayBottomSheetDetentsViewModel.swift */,
 			);
 			path = DisplayBottomSheet;
 			sourceTree = "<group>";
@@ -211,6 +232,29 @@
 				71C815222874872200C473BE /* Tests_macOSLaunchTests.swift */,
 			);
 			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		71D70C182874CB0A0008C0F5 /* FixedGrid */ = {
+			isa = PBXGroup;
+			children = (
+				71D70C262874CE900008C0F5 /* FixedGridScreen.swift */,
+				71D70C1C2874CBCB0008C0F5 /* FixedGridBasicScreen.swift */,
+				71D70C292874D0170008C0F5 /* FixedGridDifferentNumberCellsScreen.swift */,
+				71D70C2C2874D10C0008C0F5 /* FixedGridWithouRowScreen.swift */,
+				71D70C2F2874D18D0008C0F5 /* FixedGridTicTacToeScreen.swift */,
+				71D70C322874D1E20008C0F5 /* FixedGridChessboardScreen.swift */,
+			);
+			path = FixedGrid;
+			sourceTree = "<group>";
+		};
+		71D70C1F2874CCE00008C0F5 /* WhatsNewList */ = {
+			isa = PBXGroup;
+			children = (
+				71D70C182874CB0A0008C0F5 /* FixedGrid */,
+				7128308728749F36002A8AFB /* DisplayBottomSheet */,
+				71D70C202874CCFB0008C0F5 /* WhatsNewListScreen.swift */,
+			);
+			path = WhatsNewList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -371,16 +415,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7128308C2874A08B002A8AFB /* DisplayBottomSheetDetentsViewModel.swift in Sources */,
+				71D70C242874CDCF0008C0F5 /* DisplayBottomSheetScreen.swift in Sources */,
+				71D70C2A2874D0170008C0F5 /* FixedGridDifferentNumberCellsScreen.swift in Sources */,
+				71D70C2D2874D10C0008C0F5 /* FixedGridWithouRowScreen.swift in Sources */,
 				712830902874AD8E002A8AFB /* Services.swift in Sources */,
 				7128308928749F82002A8AFB /* DisplayBottomSheetDetentsScreen.swift in Sources */,
 				712830932874ADAA002A8AFB /* DefaultsManager.swift in Sources */,
 				7128307928749976002A8AFB /* AppRouter.swift in Sources */,
+				71D70C1D2874CBCB0008C0F5 /* FixedGridBasicScreen.swift in Sources */,
+				71D70C332874D1E20008C0F5 /* FixedGridChessboardScreen.swift in Sources */,
 				7128309D2874AF56002A8AFB /* Logger.swift in Sources */,
 				7128308428749D1E002A8AFB /* WhatsNewRouter.swift in Sources */,
 				712830972874ADF0002A8AFB /* ViewModel.swift in Sources */,
 				7128309A2874AE34002A8AFB /* DetentsManager.swift in Sources */,
 				71C815242874872200C473BE /* What_s_New_16App.swift in Sources */,
+				71D70C272874CE900008C0F5 /* FixedGridScreen.swift in Sources */,
+				71D70C212874CCFB0008C0F5 /* WhatsNewListScreen.swift in Sources */,
+				71D70C302874D18D0008C0F5 /* FixedGridTicTacToeScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,16 +439,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7128308D2874A08B002A8AFB /* DisplayBottomSheetDetentsViewModel.swift in Sources */,
+				71D70C252874CDCF0008C0F5 /* DisplayBottomSheetScreen.swift in Sources */,
+				71D70C2B2874D0170008C0F5 /* FixedGridDifferentNumberCellsScreen.swift in Sources */,
+				71D70C2E2874D10C0008C0F5 /* FixedGridWithouRowScreen.swift in Sources */,
 				712830912874AD8E002A8AFB /* Services.swift in Sources */,
 				7128308A28749F82002A8AFB /* DisplayBottomSheetDetentsScreen.swift in Sources */,
 				712830942874ADAA002A8AFB /* DefaultsManager.swift in Sources */,
 				7128307A28749976002A8AFB /* AppRouter.swift in Sources */,
+				71D70C1E2874CBCB0008C0F5 /* FixedGridBasicScreen.swift in Sources */,
+				71D70C342874D1E20008C0F5 /* FixedGridChessboardScreen.swift in Sources */,
 				7128309E2874AF56002A8AFB /* Logger.swift in Sources */,
 				7128308528749D1E002A8AFB /* WhatsNewRouter.swift in Sources */,
 				712830982874ADF0002A8AFB /* ViewModel.swift in Sources */,
 				7128309B2874AE34002A8AFB /* DetentsManager.swift in Sources */,
 				71C815252874872200C473BE /* What_s_New_16App.swift in Sources */,
+				71D70C282874CE900008C0F5 /* FixedGridScreen.swift in Sources */,
+				71D70C222874CCFB0008C0F5 /* WhatsNewListScreen.swift in Sources */,
+				71D70C312874D18D0008C0F5 /* FixedGridTicTacToeScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

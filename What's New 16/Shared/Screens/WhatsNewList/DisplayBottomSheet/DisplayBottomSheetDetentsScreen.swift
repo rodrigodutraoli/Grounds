@@ -11,16 +11,16 @@ struct DisplayBottomSheetDetentsScreen: View {
     let description: String
     let detents: Set<PresentationDetent>
     @State var router: WhatsNewRouter?
-    @StateObject var viewModel: DisplayBottomSheetDetentsViewModel
+    @State var showingSheet: Bool = false
     
     var body: some View {
         VStack {
             Button(action: {
-                viewModel.showingSheet.toggle()
+                showingSheet.toggle()
             }) {
                 Text("Present Sheet!")
             }
-            .sheet(isPresented: $viewModel.showingSheet) {
+            .sheet(isPresented: $showingSheet) {
                 Text(description)
                     .presentationDetents(detents)
             }
