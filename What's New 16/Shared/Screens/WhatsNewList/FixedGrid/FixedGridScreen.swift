@@ -31,10 +31,6 @@ struct FixedGridScreen: View {
             NavigationLink(destination: router.fixedGridChessboardScreen()) {
                 Text("Chessboard")
             }
-            
-            
-            
-            
         }
     }
 }

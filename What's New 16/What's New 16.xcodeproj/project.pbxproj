@@ -47,6 +47,12 @@
 		71D70C312874D18D0008C0F5 /* FixedGridTicTacToeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D70C2F2874D18D0008C0F5 /* FixedGridTicTacToeScreen.swift */; };
 		71D70C332874D1E20008C0F5 /* FixedGridChessboardScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D70C322874D1E20008C0F5 /* FixedGridChessboardScreen.swift */; };
 		71D70C342874D1E20008C0F5 /* FixedGridChessboardScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D70C322874D1E20008C0F5 /* FixedGridChessboardScreen.swift */; };
+		71D70C372874D3140008C0F5 /* TapLocationScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D70C362874D3140008C0F5 /* TapLocationScreen.swift */; };
+		71D70C382874D3140008C0F5 /* TapLocationScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D70C362874D3140008C0F5 /* TapLocationScreen.swift */; };
+		71D70C3A2874D33D0008C0F5 /* TapLocationExactLocationScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D70C392874D33D0008C0F5 /* TapLocationExactLocationScreen.swift */; };
+		71D70C3B2874D33D0008C0F5 /* TapLocationExactLocationScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D70C392874D33D0008C0F5 /* TapLocationExactLocationScreen.swift */; };
+		71D70C3D2874D75C0008C0F5 /* TapLocationGlobalLocationScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D70C3C2874D75C0008C0F5 /* TapLocationGlobalLocationScreen.swift */; };
+		71D70C3E2874D75C0008C0F5 /* TapLocationGlobalLocationScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D70C3C2874D75C0008C0F5 /* TapLocationGlobalLocationScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -94,6 +100,9 @@
 		71D70C2C2874D10C0008C0F5 /* FixedGridWithouRowScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixedGridWithouRowScreen.swift; sourceTree = "<group>"; };
 		71D70C2F2874D18D0008C0F5 /* FixedGridTicTacToeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixedGridTicTacToeScreen.swift; sourceTree = "<group>"; };
 		71D70C322874D1E20008C0F5 /* FixedGridChessboardScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixedGridChessboardScreen.swift; sourceTree = "<group>"; };
+		71D70C362874D3140008C0F5 /* TapLocationScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapLocationScreen.swift; sourceTree = "<group>"; };
+		71D70C392874D33D0008C0F5 /* TapLocationExactLocationScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapLocationExactLocationScreen.swift; sourceTree = "<group>"; };
+		71D70C3C2874D75C0008C0F5 /* TapLocationGlobalLocationScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapLocationGlobalLocationScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -250,11 +259,22 @@
 		71D70C1F2874CCE00008C0F5 /* WhatsNewList */ = {
 			isa = PBXGroup;
 			children = (
+				71D70C202874CCFB0008C0F5 /* WhatsNewListScreen.swift */,
+				71D70C352874D2FE0008C0F5 /* TapLocation */,
 				71D70C182874CB0A0008C0F5 /* FixedGrid */,
 				7128308728749F36002A8AFB /* DisplayBottomSheet */,
-				71D70C202874CCFB0008C0F5 /* WhatsNewListScreen.swift */,
 			);
 			path = WhatsNewList;
+			sourceTree = "<group>";
+		};
+		71D70C352874D2FE0008C0F5 /* TapLocation */ = {
+			isa = PBXGroup;
+			children = (
+				71D70C362874D3140008C0F5 /* TapLocationScreen.swift */,
+				71D70C392874D33D0008C0F5 /* TapLocationExactLocationScreen.swift */,
+				71D70C3C2874D75C0008C0F5 /* TapLocationGlobalLocationScreen.swift */,
+			);
+			path = TapLocation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -415,8 +435,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71D70C3D2874D75C0008C0F5 /* TapLocationGlobalLocationScreen.swift in Sources */,
 				71D70C242874CDCF0008C0F5 /* DisplayBottomSheetScreen.swift in Sources */,
 				71D70C2A2874D0170008C0F5 /* FixedGridDifferentNumberCellsScreen.swift in Sources */,
+				71D70C372874D3140008C0F5 /* TapLocationScreen.swift in Sources */,
 				71D70C2D2874D10C0008C0F5 /* FixedGridWithouRowScreen.swift in Sources */,
 				712830902874AD8E002A8AFB /* Services.swift in Sources */,
 				7128308928749F82002A8AFB /* DisplayBottomSheetDetentsScreen.swift in Sources */,
@@ -432,6 +454,7 @@
 				71D70C272874CE900008C0F5 /* FixedGridScreen.swift in Sources */,
 				71D70C212874CCFB0008C0F5 /* WhatsNewListScreen.swift in Sources */,
 				71D70C302874D18D0008C0F5 /* FixedGridTicTacToeScreen.swift in Sources */,
+				71D70C3A2874D33D0008C0F5 /* TapLocationExactLocationScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,8 +462,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71D70C3E2874D75C0008C0F5 /* TapLocationGlobalLocationScreen.swift in Sources */,
 				71D70C252874CDCF0008C0F5 /* DisplayBottomSheetScreen.swift in Sources */,
 				71D70C2B2874D0170008C0F5 /* FixedGridDifferentNumberCellsScreen.swift in Sources */,
+				71D70C382874D3140008C0F5 /* TapLocationScreen.swift in Sources */,
 				71D70C2E2874D10C0008C0F5 /* FixedGridWithouRowScreen.swift in Sources */,
 				712830912874AD8E002A8AFB /* Services.swift in Sources */,
 				7128308A28749F82002A8AFB /* DisplayBottomSheetDetentsScreen.swift in Sources */,
@@ -456,6 +481,7 @@
 				71D70C282874CE900008C0F5 /* FixedGridScreen.swift in Sources */,
 				71D70C222874CCFB0008C0F5 /* WhatsNewListScreen.swift in Sources */,
 				71D70C312874D18D0008C0F5 /* FixedGridTicTacToeScreen.swift in Sources */,
+				71D70C3B2874D33D0008C0F5 /* TapLocationExactLocationScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -37,6 +37,14 @@ class WhatsNewRouter: ObservableObject {
         FixedGridChessboardScreen(router: self)
     }
     
+    @ViewBuilder func tapLocationExactLocationScreen() -> some View {
+        TapLocationExactLocationScreen(router: self)
+    }
+    
+    @ViewBuilder func tapLocationGlobalLocationScreen() -> some View {
+        TapLocationGlobalLocationScreen(router: self)
+    }
+    
     private var services: Services
     
     init(services: Services) {
