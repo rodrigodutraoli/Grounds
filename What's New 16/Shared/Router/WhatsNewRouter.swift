@@ -53,7 +53,9 @@ class WhatsNewRouter: ObservableObject {
         ShareContentPreviewScreen(router: self)
     }
     
-    
+    @ViewBuilder func requestReviewButtonScreen() -> some View {
+        RequestReviewButtonScreen(router: self)
+    }
     
     private var services: Services
     

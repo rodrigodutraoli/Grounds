@@ -17,6 +17,7 @@ struct WhatsNewListScreen: View {
                 FixedGridScreen(router: router)
                 TapLocationScreen(router: router)
                 ShareContentScreen(router: router)
+                RequestReviewScreen(router: router)
             }
             .navigationTitle("What's new in iOS 16")
         }.navigationViewStyle(.stack)
