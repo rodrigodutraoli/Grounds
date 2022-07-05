@@ -57,6 +57,11 @@ class WhatsNewRouter: ObservableObject {
         RequestReviewButtonScreen(router: self)
     }
     
+    @ViewBuilder func multipleDateSelectionSimpleScreen() -> some View {
+        MultipleDateSelectionSimpleScreen(router: self)
+    }
+    
+    
     private var services: Services
     
     init(services: Services) {

@@ -63,6 +63,10 @@
 		71D70C5E2874DFBB0008C0F5 /* RequestReviewScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D70C5C2874DFBB0008C0F5 /* RequestReviewScreen.swift */; };
 		71D70C602874DFE70008C0F5 /* RequestReviewButtonScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D70C5F2874DFE70008C0F5 /* RequestReviewButtonScreen.swift */; };
 		71D70C612874DFE70008C0F5 /* RequestReviewButtonScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D70C5F2874DFE70008C0F5 /* RequestReviewButtonScreen.swift */; };
+		71D70C642874E2800008C0F5 /* MultipleDateSelectionScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D70C632874E2800008C0F5 /* MultipleDateSelectionScreen.swift */; };
+		71D70C652874E2800008C0F5 /* MultipleDateSelectionScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D70C632874E2800008C0F5 /* MultipleDateSelectionScreen.swift */; };
+		71D70C672874E2A70008C0F5 /* MultipleDateSelectionSimpleScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D70C662874E2A70008C0F5 /* MultipleDateSelectionSimpleScreen.swift */; };
+		71D70C682874E2A70008C0F5 /* MultipleDateSelectionSimpleScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D70C662874E2A70008C0F5 /* MultipleDateSelectionSimpleScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -118,6 +122,8 @@
 		71D70C582874DCC40008C0F5 /* ShareContentPreviewScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareContentPreviewScreen.swift; sourceTree = "<group>"; };
 		71D70C5C2874DFBB0008C0F5 /* RequestReviewScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestReviewScreen.swift; sourceTree = "<group>"; };
 		71D70C5F2874DFE70008C0F5 /* RequestReviewButtonScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestReviewButtonScreen.swift; sourceTree = "<group>"; };
+		71D70C632874E2800008C0F5 /* MultipleDateSelectionScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleDateSelectionScreen.swift; sourceTree = "<group>"; };
+		71D70C662874E2A70008C0F5 /* MultipleDateSelectionSimpleScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleDateSelectionSimpleScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -275,6 +281,7 @@
 			isa = PBXGroup;
 			children = (
 				71D70C202874CCFB0008C0F5 /* WhatsNewListScreen.swift */,
+				71D70C622874E25E0008C0F5 /* MultipleDateSelection */,
 				71D70C5B2874DF9B0008C0F5 /* RequestReview */,
 				71D70C502874DB280008C0F5 /* ShareContent */,
 				71D70C352874D2FE0008C0F5 /* TapLocation */,
@@ -311,6 +318,15 @@
 				71D70C5F2874DFE70008C0F5 /* RequestReviewButtonScreen.swift */,
 			);
 			path = RequestReview;
+			sourceTree = "<group>";
+		};
+		71D70C622874E25E0008C0F5 /* MultipleDateSelection */ = {
+			isa = PBXGroup;
+			children = (
+				71D70C632874E2800008C0F5 /* MultipleDateSelectionScreen.swift */,
+				71D70C662874E2A70008C0F5 /* MultipleDateSelectionSimpleScreen.swift */,
+			);
+			path = MultipleDateSelection;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -473,6 +489,7 @@
 			files = (
 				71D70C3D2874D75C0008C0F5 /* TapLocationGlobalLocationScreen.swift in Sources */,
 				71D70C562874DBAB0008C0F5 /* ShareContentSimpleScreen.swift in Sources */,
+				71D70C642874E2800008C0F5 /* MultipleDateSelectionScreen.swift in Sources */,
 				71D70C242874CDCF0008C0F5 /* DisplayBottomSheetScreen.swift in Sources */,
 				71D70C2A2874D0170008C0F5 /* FixedGridDifferentNumberCellsScreen.swift in Sources */,
 				71D70C372874D3140008C0F5 /* TapLocationScreen.swift in Sources */,
@@ -486,6 +503,7 @@
 				71D70C332874D1E20008C0F5 /* FixedGridChessboardScreen.swift in Sources */,
 				7128309D2874AF56002A8AFB /* Logger.swift in Sources */,
 				71D70C602874DFE70008C0F5 /* RequestReviewButtonScreen.swift in Sources */,
+				71D70C672874E2A70008C0F5 /* MultipleDateSelectionSimpleScreen.swift in Sources */,
 				7128308428749D1E002A8AFB /* WhatsNewRouter.swift in Sources */,
 				71D70C592874DCC40008C0F5 /* ShareContentPreviewScreen.swift in Sources */,
 				712830972874ADF0002A8AFB /* ViewModel.swift in Sources */,
@@ -505,6 +523,7 @@
 			files = (
 				71D70C3E2874D75C0008C0F5 /* TapLocationGlobalLocationScreen.swift in Sources */,
 				71D70C572874DBAB0008C0F5 /* ShareContentSimpleScreen.swift in Sources */,
+				71D70C652874E2800008C0F5 /* MultipleDateSelectionScreen.swift in Sources */,
 				71D70C252874CDCF0008C0F5 /* DisplayBottomSheetScreen.swift in Sources */,
 				71D70C2B2874D0170008C0F5 /* FixedGridDifferentNumberCellsScreen.swift in Sources */,
 				71D70C382874D3140008C0F5 /* TapLocationScreen.swift in Sources */,
@@ -518,6 +537,7 @@
 				71D70C342874D1E20008C0F5 /* FixedGridChessboardScreen.swift in Sources */,
 				7128309E2874AF56002A8AFB /* Logger.swift in Sources */,
 				71D70C612874DFE70008C0F5 /* RequestReviewButtonScreen.swift in Sources */,
+				71D70C682874E2A70008C0F5 /* MultipleDateSelectionSimpleScreen.swift in Sources */,
 				7128308528749D1E002A8AFB /* WhatsNewRouter.swift in Sources */,
 				71D70C5A2874DCC40008C0F5 /* ShareContentPreviewScreen.swift in Sources */,
 				712830982874ADF0002A8AFB /* ViewModel.swift in Sources */,
