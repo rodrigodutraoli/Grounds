@@ -53,6 +53,12 @@
 		71D70C3B2874D33D0008C0F5 /* TapLocationExactLocationScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D70C392874D33D0008C0F5 /* TapLocationExactLocationScreen.swift */; };
 		71D70C3D2874D75C0008C0F5 /* TapLocationGlobalLocationScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D70C3C2874D75C0008C0F5 /* TapLocationGlobalLocationScreen.swift */; };
 		71D70C3E2874D75C0008C0F5 /* TapLocationGlobalLocationScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D70C3C2874D75C0008C0F5 /* TapLocationGlobalLocationScreen.swift */; };
+		71D70C532874DB580008C0F5 /* ShareContentScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D70C512874DB520008C0F5 /* ShareContentScreen.swift */; };
+		71D70C542874DB590008C0F5 /* ShareContentScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D70C512874DB520008C0F5 /* ShareContentScreen.swift */; };
+		71D70C562874DBAB0008C0F5 /* ShareContentSimpleScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D70C552874DBAB0008C0F5 /* ShareContentSimpleScreen.swift */; };
+		71D70C572874DBAB0008C0F5 /* ShareContentSimpleScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D70C552874DBAB0008C0F5 /* ShareContentSimpleScreen.swift */; };
+		71D70C592874DCC40008C0F5 /* ShareContentPreviewScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D70C582874DCC40008C0F5 /* ShareContentPreviewScreen.swift */; };
+		71D70C5A2874DCC40008C0F5 /* ShareContentPreviewScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D70C582874DCC40008C0F5 /* ShareContentPreviewScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -103,6 +109,9 @@
 		71D70C362874D3140008C0F5 /* TapLocationScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapLocationScreen.swift; sourceTree = "<group>"; };
 		71D70C392874D33D0008C0F5 /* TapLocationExactLocationScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapLocationExactLocationScreen.swift; sourceTree = "<group>"; };
 		71D70C3C2874D75C0008C0F5 /* TapLocationGlobalLocationScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapLocationGlobalLocationScreen.swift; sourceTree = "<group>"; };
+		71D70C512874DB520008C0F5 /* ShareContentScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareContentScreen.swift; sourceTree = "<group>"; };
+		71D70C552874DBAB0008C0F5 /* ShareContentSimpleScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareContentSimpleScreen.swift; sourceTree = "<group>"; };
+		71D70C582874DCC40008C0F5 /* ShareContentPreviewScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareContentPreviewScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -260,6 +269,7 @@
 			isa = PBXGroup;
 			children = (
 				71D70C202874CCFB0008C0F5 /* WhatsNewListScreen.swift */,
+				71D70C502874DB280008C0F5 /* ShareContent */,
 				71D70C352874D2FE0008C0F5 /* TapLocation */,
 				71D70C182874CB0A0008C0F5 /* FixedGrid */,
 				7128308728749F36002A8AFB /* DisplayBottomSheet */,
@@ -275,6 +285,16 @@
 				71D70C3C2874D75C0008C0F5 /* TapLocationGlobalLocationScreen.swift */,
 			);
 			path = TapLocation;
+			sourceTree = "<group>";
+		};
+		71D70C502874DB280008C0F5 /* ShareContent */ = {
+			isa = PBXGroup;
+			children = (
+				71D70C512874DB520008C0F5 /* ShareContentScreen.swift */,
+				71D70C552874DBAB0008C0F5 /* ShareContentSimpleScreen.swift */,
+				71D70C582874DCC40008C0F5 /* ShareContentPreviewScreen.swift */,
+			);
+			path = ShareContent;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -357,7 +377,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1340;
+				LastSwiftUpdateCheck = 1400;
 				LastUpgradeCheck = 1400;
 				TargetAttributes = {
 					71C815022874872200C473BE = {
@@ -436,11 +456,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				71D70C3D2874D75C0008C0F5 /* TapLocationGlobalLocationScreen.swift in Sources */,
+				71D70C562874DBAB0008C0F5 /* ShareContentSimpleScreen.swift in Sources */,
 				71D70C242874CDCF0008C0F5 /* DisplayBottomSheetScreen.swift in Sources */,
 				71D70C2A2874D0170008C0F5 /* FixedGridDifferentNumberCellsScreen.swift in Sources */,
 				71D70C372874D3140008C0F5 /* TapLocationScreen.swift in Sources */,
 				71D70C2D2874D10C0008C0F5 /* FixedGridWithouRowScreen.swift in Sources */,
 				712830902874AD8E002A8AFB /* Services.swift in Sources */,
+				71D70C542874DB590008C0F5 /* ShareContentScreen.swift in Sources */,
 				7128308928749F82002A8AFB /* DisplayBottomSheetDetentsScreen.swift in Sources */,
 				712830932874ADAA002A8AFB /* DefaultsManager.swift in Sources */,
 				7128307928749976002A8AFB /* AppRouter.swift in Sources */,
@@ -448,6 +470,7 @@
 				71D70C332874D1E20008C0F5 /* FixedGridChessboardScreen.swift in Sources */,
 				7128309D2874AF56002A8AFB /* Logger.swift in Sources */,
 				7128308428749D1E002A8AFB /* WhatsNewRouter.swift in Sources */,
+				71D70C592874DCC40008C0F5 /* ShareContentPreviewScreen.swift in Sources */,
 				712830972874ADF0002A8AFB /* ViewModel.swift in Sources */,
 				7128309A2874AE34002A8AFB /* DetentsManager.swift in Sources */,
 				71C815242874872200C473BE /* What_s_New_16App.swift in Sources */,
@@ -463,11 +486,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				71D70C3E2874D75C0008C0F5 /* TapLocationGlobalLocationScreen.swift in Sources */,
+				71D70C572874DBAB0008C0F5 /* ShareContentSimpleScreen.swift in Sources */,
 				71D70C252874CDCF0008C0F5 /* DisplayBottomSheetScreen.swift in Sources */,
 				71D70C2B2874D0170008C0F5 /* FixedGridDifferentNumberCellsScreen.swift in Sources */,
 				71D70C382874D3140008C0F5 /* TapLocationScreen.swift in Sources */,
 				71D70C2E2874D10C0008C0F5 /* FixedGridWithouRowScreen.swift in Sources */,
 				712830912874AD8E002A8AFB /* Services.swift in Sources */,
+				71D70C532874DB580008C0F5 /* ShareContentScreen.swift in Sources */,
 				7128308A28749F82002A8AFB /* DisplayBottomSheetDetentsScreen.swift in Sources */,
 				712830942874ADAA002A8AFB /* DefaultsManager.swift in Sources */,
 				7128307A28749976002A8AFB /* AppRouter.swift in Sources */,
@@ -475,6 +500,7 @@
 				71D70C342874D1E20008C0F5 /* FixedGridChessboardScreen.swift in Sources */,
 				7128309E2874AF56002A8AFB /* Logger.swift in Sources */,
 				7128308528749D1E002A8AFB /* WhatsNewRouter.swift in Sources */,
+				71D70C5A2874DCC40008C0F5 /* ShareContentPreviewScreen.swift in Sources */,
 				712830982874ADF0002A8AFB /* ViewModel.swift in Sources */,
 				7128309B2874AE34002A8AFB /* DetentsManager.swift in Sources */,
 				71C815252874872200C473BE /* What_s_New_16App.swift in Sources */,

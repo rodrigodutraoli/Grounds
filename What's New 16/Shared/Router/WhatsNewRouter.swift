@@ -45,6 +45,16 @@ class WhatsNewRouter: ObservableObject {
         TapLocationGlobalLocationScreen(router: self)
     }
     
+    @ViewBuilder func shareContentSimpleScreen() -> some View {
+        ShareContentSimpleScreen(router: self)
+    }
+    
+    @ViewBuilder func shareContentPreviewScreen() -> some View {
+        ShareContentPreviewScreen(router: self)
+    }
+    
+    
+    
     private var services: Services
     
     init(services: Services) {
