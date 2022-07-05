@@ -1,3 +1,3 @@
 # Grounds
 
-![Print](docs/print.png?raw=true "Print")
+<img src="docs/print.png" width="300"/>
