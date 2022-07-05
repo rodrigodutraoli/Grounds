@@ -67,6 +67,10 @@
 		71D70C652874E2800008C0F5 /* MultipleDateSelectionScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D70C632874E2800008C0F5 /* MultipleDateSelectionScreen.swift */; };
 		71D70C672874E2A70008C0F5 /* MultipleDateSelectionSimpleScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D70C662874E2A70008C0F5 /* MultipleDateSelectionSimpleScreen.swift */; };
 		71D70C682874E2A70008C0F5 /* MultipleDateSelectionSimpleScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D70C662874E2A70008C0F5 /* MultipleDateSelectionSimpleScreen.swift */; };
+		71D70C6B2874E4D70008C0F5 /* SearchableScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D70C6A2874E4D70008C0F5 /* SearchableScreen.swift */; };
+		71D70C6C2874E4D70008C0F5 /* SearchableScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D70C6A2874E4D70008C0F5 /* SearchableScreen.swift */; };
+		71D70C6E2874E5070008C0F5 /* SearchableSimpleScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D70C6D2874E5070008C0F5 /* SearchableSimpleScreen.swift */; };
+		71D70C6F2874E5070008C0F5 /* SearchableSimpleScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D70C6D2874E5070008C0F5 /* SearchableSimpleScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -124,6 +128,8 @@
 		71D70C5F2874DFE70008C0F5 /* RequestReviewButtonScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestReviewButtonScreen.swift; sourceTree = "<group>"; };
 		71D70C632874E2800008C0F5 /* MultipleDateSelectionScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleDateSelectionScreen.swift; sourceTree = "<group>"; };
 		71D70C662874E2A70008C0F5 /* MultipleDateSelectionSimpleScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleDateSelectionSimpleScreen.swift; sourceTree = "<group>"; };
+		71D70C6A2874E4D70008C0F5 /* SearchableScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchableScreen.swift; sourceTree = "<group>"; };
+		71D70C6D2874E5070008C0F5 /* SearchableSimpleScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchableSimpleScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -281,6 +287,7 @@
 			isa = PBXGroup;
 			children = (
 				71D70C202874CCFB0008C0F5 /* WhatsNewListScreen.swift */,
+				71D70C692874E4BA0008C0F5 /* SearchableScreen */,
 				71D70C622874E25E0008C0F5 /* MultipleDateSelection */,
 				71D70C5B2874DF9B0008C0F5 /* RequestReview */,
 				71D70C502874DB280008C0F5 /* ShareContent */,
@@ -327,6 +334,15 @@
 				71D70C662874E2A70008C0F5 /* MultipleDateSelectionSimpleScreen.swift */,
 			);
 			path = MultipleDateSelection;
+			sourceTree = "<group>";
+		};
+		71D70C692874E4BA0008C0F5 /* SearchableScreen */ = {
+			isa = PBXGroup;
+			children = (
+				71D70C6A2874E4D70008C0F5 /* SearchableScreen.swift */,
+				71D70C6D2874E5070008C0F5 /* SearchableSimpleScreen.swift */,
+			);
+			path = SearchableScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -502,12 +518,14 @@
 				71D70C1D2874CBCB0008C0F5 /* FixedGridBasicScreen.swift in Sources */,
 				71D70C332874D1E20008C0F5 /* FixedGridChessboardScreen.swift in Sources */,
 				7128309D2874AF56002A8AFB /* Logger.swift in Sources */,
+				71D70C6B2874E4D70008C0F5 /* SearchableScreen.swift in Sources */,
 				71D70C602874DFE70008C0F5 /* RequestReviewButtonScreen.swift in Sources */,
 				71D70C672874E2A70008C0F5 /* MultipleDateSelectionSimpleScreen.swift in Sources */,
 				7128308428749D1E002A8AFB /* WhatsNewRouter.swift in Sources */,
 				71D70C592874DCC40008C0F5 /* ShareContentPreviewScreen.swift in Sources */,
 				712830972874ADF0002A8AFB /* ViewModel.swift in Sources */,
 				7128309A2874AE34002A8AFB /* DetentsManager.swift in Sources */,
+				71D70C6E2874E5070008C0F5 /* SearchableSimpleScreen.swift in Sources */,
 				71C815242874872200C473BE /* What_s_New_16App.swift in Sources */,
 				71D70C272874CE900008C0F5 /* FixedGridScreen.swift in Sources */,
 				71D70C212874CCFB0008C0F5 /* WhatsNewListScreen.swift in Sources */,
@@ -536,12 +554,14 @@
 				71D70C1E2874CBCB0008C0F5 /* FixedGridBasicScreen.swift in Sources */,
 				71D70C342874D1E20008C0F5 /* FixedGridChessboardScreen.swift in Sources */,
 				7128309E2874AF56002A8AFB /* Logger.swift in Sources */,
+				71D70C6C2874E4D70008C0F5 /* SearchableScreen.swift in Sources */,
 				71D70C612874DFE70008C0F5 /* RequestReviewButtonScreen.swift in Sources */,
 				71D70C682874E2A70008C0F5 /* MultipleDateSelectionSimpleScreen.swift in Sources */,
 				7128308528749D1E002A8AFB /* WhatsNewRouter.swift in Sources */,
 				71D70C5A2874DCC40008C0F5 /* ShareContentPreviewScreen.swift in Sources */,
 				712830982874ADF0002A8AFB /* ViewModel.swift in Sources */,
 				7128309B2874AE34002A8AFB /* DetentsManager.swift in Sources */,
+				71D70C6F2874E5070008C0F5 /* SearchableSimpleScreen.swift in Sources */,
 				71C815252874872200C473BE /* What_s_New_16App.swift in Sources */,
 				71D70C282874CE900008C0F5 /* FixedGridScreen.swift in Sources */,
 				71D70C222874CCFB0008C0F5 /* WhatsNewListScreen.swift in Sources */,

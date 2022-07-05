@@ -61,6 +61,12 @@ class WhatsNewRouter: ObservableObject {
         MultipleDateSelectionSimpleScreen(router: self)
     }
     
+    @ViewBuilder func searchableSimpleScreen() -> some View {
+        SearchableSimpleScreen(router: self)
+    }
+    
+    
+    
     
     private var services: Services
     
